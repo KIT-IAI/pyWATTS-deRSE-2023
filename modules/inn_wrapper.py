@@ -15,8 +15,10 @@ from modules.inn_base_functions import AnomalyINN
 
 class INNWrapperBase(GeneratorBase, ABC):
 
-    def __init__(self, name: str = "INN", logprob=False, **kwargs):
-        super().__init__(name, **kwargs)
+    def __init__(self, name: str = "INN", logprob=False, epochs=100, val_train_split=0.2,
+                 supervised=False, contamination=0.8):
+        super().__init__(name=name, epochs=epochs, val_train_split=val_train_split,
+                         supervised=supervised, contamination=contamination)
         self.logprob = logprob
 
     def save(self, fm: FileManager) -> Dict:
