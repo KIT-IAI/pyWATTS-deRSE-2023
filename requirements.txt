@@ -1,0 +1,2 @@
+git+https://github.com/KIT-IAI/pyWATTS
+git+https://github.com/KIT-IAI/pywatts-pipeline
