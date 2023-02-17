@@ -8,7 +8,8 @@ our talk and poster. You can also find the PDF slides of our talk and a copy of 
 ## Getting Started
 To run the jupyter notebooks:
 * Create a new python environment.
-* Install the requirements via ``pip install -r requirements.txt``
+* Install the requirements via ``pip install -r requirements.txt``.
+
 You should now be able to run all the notebooks without any problems.
 
 ### A Special Note for Mac Users
