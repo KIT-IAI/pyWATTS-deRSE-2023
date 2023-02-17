@@ -3,3 +3,4 @@ torch
 FrEIA
 schemdraw
 keras
+jupyter
