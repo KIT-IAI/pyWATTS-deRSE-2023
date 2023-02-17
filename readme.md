@@ -19,7 +19,7 @@ If you want to run our notebooks on an Apple computer, you first have to install
 
 More information regarding TensorFlow for macOS can be found through this helpful [installation guide](https://caffeinedev.medium.com/how-to-install-tensorflow-on-m1-mac-8e9b91d93706).
 
-### Further Information on pyWATTS
+## Further Information on pyWATTS
 Further information on pyWATTS can be found in the:
 * [pyWATTS Documentation](https://pywatts.readthedocs.io/en/latest/)
 * [pywatts-pipeline Repository](https://github.com/KIT-IAI/pywatts-pipeline)
